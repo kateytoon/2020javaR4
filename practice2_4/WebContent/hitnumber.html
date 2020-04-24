@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>数当てゲーム</title>
+</head>
+<body>
+	<h1>数当てゲーム</h1>
+	<p>コンピュータが考えている数字（1～9）を当てましょう。
+	<form method="post" name="form1" action="HitNumberServlet">
+		<input type="hidden" name="number" value="1">
+	</form>
+	<form method="post" name="form2" action="HitNumberServlet">
+		<input type="hidden" name="number" value="2">
+	</form>
+	<form method="post" name="form3" action="HitNumberServlet">
+		<input type="hidden" name="number" value="3">
+	</form>
+	<form method="post" name="form4" action="HitNumberServlet">
+		<input type="hidden" name="number" value="4">
+	</form>
+	<form method="post" name="form5" action="HitNumberServlet">
+		<input type="hidden" name="number" value="5">
+	</form>
+	<form method="post" name="form6" action="HitNumberServlet">
+		<input type="hidden" name="number" value="6">
+	</form>
+	<form method="post" name="form7" action="HitNumberServlet">
+		<input type="hidden" name="number" value="7">
+	</form>
+	<form method="post" name="form8" action="HitNumberServlet">
+		<input type="hidden" name="number" value="8">
+	</form>
+	<form method="post" name="form9" action="HitNumberServlet">
+		<input type="hidden" name="number" value="9">
+	</form>
+
+	<a href="HitNumberServlet"
+		onclick="document.form1.submit();return false;">1</a>
+	<a href="HitNumberServlet"
+		onclick="document.form2.submit();return false;">2</a>
+	<a href="HitNumberServlet"
+		onclick="document.form3.submit();return false;">3</a>
+	<a href="HitNumberServlet"
+		onclick="document.form4.submit();return false;">4</a>
+	<a href="HitNumberServlet"
+		onclick="document.form5.submit();return false;">5</a>
+	<a href="HitNumberServlet"
+		onclick="document.form6.submit();return false;">6</a>
+	<a href="HitNumberServlet"
+		onclick="document.form7.submit();return false;">7</a>
+	<a href="HitNumberServlet"
+		onclick="document.form8.submit();return false;">8</a>
+	<a href="HitNumberServlet"
+		onclick="document.form9.submit();return false;">9</a>
+
+</body>
+</html>

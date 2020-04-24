@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="HelloWorldPJ" path="/HelloWorldPJ" reloadable="false" source="org.eclipse.jst.jee.server:HelloWorldPJ"/><Context docBase="practice2_1" path="/practice2_1" reloadable="false" source="org.eclipse.jst.jee.server:practice2_1"/><Context docBase="practice2_2" path="/practice2_2" reloadable="false" source="org.eclipse.jst.jee.server:practice2_2"/><Context docBase="practice2_3" path="/practice2_3" reloadable="false" source="org.eclipse.jst.jee.server:practice2_3"/></Host>
+      <Context docBase="HelloWorldPJ" path="/HelloWorldPJ" reloadable="false" source="org.eclipse.jst.jee.server:HelloWorldPJ"/><Context docBase="practice2_1" path="/practice2_1" reloadable="false" source="org.eclipse.jst.jee.server:practice2_1"/><Context docBase="practice2_2" path="/practice2_2" reloadable="false" source="org.eclipse.jst.jee.server:practice2_2"/><Context docBase="practice2_3" path="/practice2_3" reloadable="false" source="org.eclipse.jst.jee.server:practice2_3"/><Context docBase="practice2_4" path="/practice2_4" reloadable="false" source="org.eclipse.jst.jee.server:practice2_4"/><Context docBase="ptactice2_5" path="/ptactice2_5" reloadable="false" source="org.eclipse.jst.jee.server:ptactice2_5"/></Host>
     </Engine>
   </Service>
 </Server>

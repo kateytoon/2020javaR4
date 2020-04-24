@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>四則演算処理</title>
+</head>
+<body>
+	<h1>四則演算処理</h1>
+	<form action="CalcServlet" method="get">
+		<table>
+		<tr>
+		<th>
+			数字1つ目
+		<p>
+			<input type="text" name="number1" size="40">
+		</p>
+		</th>
+		<th align="center">
+		<p>
+			<input type="radio" name="calc" value="tasu">＋<br>
+			<input type="radio" name="calc" value="hiku">－ <br>
+			<input type="radio" name="calc" value="kake">×<br>
+			<input type="radio" name="calc" value="waru">÷
+		</p>
+		</th>
+		<th>
+			数字2つ目
+		<p>
+			<input type="text" name="number2" size="40">
+		</p>
+		</th>
+		<th>
+		<p>
+			<input type="submit" value="=">
+		</p>
+		</th>
+		</table>
+	</form>
+
+</body>
+</html>
